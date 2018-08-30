@@ -8,50 +8,121 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <link href="index.html"
     <title>About</title>
   </head>
   <body>
+<!-- Nav bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="index.html">Meredith Fontana</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Resume
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#education-section">Education</a>
+                  <a class="dropdown-item" href="#">Experience</a>
+                  <a class="dropdown-item" href="#">Fieldwork</a>
+                  <a class="dropdown-item" href="#">Publications</a>
+                  
+                 
+                </div>
+              </li>
+            </ul>
+           
+          </div>
+        </nav>
 
-       <!-- About summary -->
+  <!-- About summary -->
+<h1><i>About</i></h1>
+<div class="summary">
+  <h2>Hey, y'all!</h2>
+  <p>I'm originally from Houston and currently call Denver home. I moved to Colorado
+    from Washington DC where I recieved my Master's Degree in Evolutionary Biology at George Washington University and worked as a 
+   research associate in the Department of Paleobiology at the Smithsonian Museum of Natural History.
+   <p><br>
+   
+   <p>I have worked professionaly as a paleontologist for most of my career, and am now venturing into the exciting world of web development.
+   I am extremely excited about the opportunities a career in tech will provide, and would love to someday apply the skills I learn to 
+   the many topics I am passionate about, including science. 
+   </p>
+  
+</div>
 
 
 
    <!-- Education -->
    <section id="education-section">
-   <div class="row">
-        <div class="col-sm-4">1</div>
-        <div class="col-sm-8">2</div>
-  </div>
-   <div class="row">
-        <div class="col-sm-4">3</div>
-        <div class="col-sm-8">4</div>
-  </div>
-   <div class="row">
+
+  <div class="first-column">
+    <div class="row">
             <div class="col-sm-4">
-                <p class="education">Education</p>
+                <p class="education"><b>Education</b></p>
 
             </div>
             <div class="col-sm-8">
-                    <p>The George Washington University, Washington DC </p>
-                    <p> MS Evolutionary Biology: Phylogenetic Systematics and Paleontology, 2014 </p>
-                    <p>The University of Texas at Austin</p>
-                    <p> BS Evolutionary Biology: Ecology, Evolution and Behavior, 2011 </p>
+                    <p><i>The George Washington University, Washington DC </i><br>
+                      MS Evolutionary Biology: Phylogenetic Systematics and Paleontology, 2014 </p>
+                    <p><i>The University of Texas at Austin</i><br>
+                    BS Evolutionary Biology: Ecology, Evolution and Behavior, 2011 </p>
             </div>
             
             </div>
+  </div>
                 
       </div>
     </section>
 
 
-
-    <!-- Experience -->
-
-
-
     <!-- Fieldwork -->
+    <div class="cards">
 
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="fossil-fish.jpg" alt="Fossil Fish">
+        <div class="card-body">
+          <p class="card-text">Green River, Wyoming<br>
+            Eocene: 55 million years ago
+            Fossils: Fish, Stingray, Turtles, Palm Fronds, Horses
+          </p>
+        </div>
+      </div>
+
+    <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="pefo.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">Petrified Forest National Park<br>
+            Triassic: ~200-250 million years ago
+            Fossils: Revueltosaurus, Matoposaurs, Phytosaurs
+            </p>
+          </div>
+        </div>
+
+    <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+
+      <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="..." alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+
+</div>
 
 
     <!-- Publications -->
