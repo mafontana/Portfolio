@@ -1,0 +1,23 @@
+.text-box {
+    background-color: lightblue;
+    padding: 40px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.portrait {
+    padding: 40px;
+
+}
+
+.btn btn-info {
+    display: flex;
+    justify-content: center;
+}
+
+.education {
+    float: right;
+
+}
